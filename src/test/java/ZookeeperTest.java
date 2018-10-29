@@ -26,12 +26,6 @@ public class ZookeeperTest {
         logger.info("zookeeper 连接成功");
     }
 
-    @After
-    public void after() {
-        zkClient.close();
-        logger.info("zookeeper 关闭");
-    }
-
     /**
      * 创建节点
      */
